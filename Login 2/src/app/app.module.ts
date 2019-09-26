@@ -9,13 +9,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AuthComponent } from './auth/auth.component';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
+import {LoadingSpinnerComponent} from './loading-spinner/loading-spinner.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     AuthComponent,
     HeaderComponent,
-    HomeComponent
+    HomeComponent,
+    LoadingSpinnerComponent
   ],
   imports: [
     BrowserModule,
